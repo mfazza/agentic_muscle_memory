@@ -14,6 +14,12 @@
   - Input Variables
   - Output description
 
+## Playbook Skills (Workflow Automation)
+- **Definition:** Skills that automate a sequence of steps (a Journey) rather than a single command.
+- **Documentation:** Playbook skills must include a `Sequence` section in their `SKILL.md` detailing the logical steps.
+- **Decision Gates:** Playbooks should include checkpoints where the agent asks for user confirmation before proceeding with high-impact steps.
+- **Net Impact:** Playbook design should focus on the final desired state, ensuring all intermediate cleanup is handled.
+
 ## Evolution Loop Implementation
 - New patterns are captured in `@EVOLUTION_LOG.md`.
 - **Skill Candidate Criteria:**

@@ -1,8 +1,8 @@
 # Skill Lifecycle Management
 
 ## 0. Discovery (The Proactive Trigger)
-- **Trigger:** Successful completion of a task by the Generator.
-- **Action:** Generator invokes the Curator and Reflector to review the execution output.
+- **Trigger:** Successful completion of a Logical Task (Journey) by the Generator.
+- **Action:** Generator invokes the Curator and Reflector once the Journey is signaled as complete.
 - **Goal:** Identify repeatable patterns or improvements to existing skills.
 
 ## 1. Incubation
